@@ -1,0 +1,244 @@
+{
+	"Questions": [{
+		"subject": "java",
+		"subjectDetail": [{
+			"question": "What of the following is the default value of an instance variable?",
+			"options": ["null", "0", "Depends upon the type", "Not assigned"],
+			"answer": ["Depends upon the type"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Can we have MULTIPLE classes in same java file?",
+			"options": ["True", "False"],
+			"answer": ["True"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "What is the default value of short variable?",
+			"options": ["0.0", "0", "null", "not defined"],
+			"answer": ["0"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Which options describe the correct default values for array elements of the types indicated?",
+			"options": ["int -> 0", "String -> \"null\"", "Dog -> \"null\"", "boolean -> true"],
+			"answer": ["int -> 0", "Dog -> \"null\""],
+			"questionType": "Textual",
+			"answerType": "MULTIPLE",
+			"weightage": "4"
+		}, {
+			"question": "Which are legal array declarations?",
+			"options": ["int [] myScores [];", "char [] myChars;", "int [6] myScores;", "Dog myDogs [];"],
+			"answer": ["int [] myScores [];", "char [] myChars;", "Dog myDogs [];"],
+			"questionType": "Textual",
+			"answerType": "MULTIPLE",
+			"weightage": "4"
+		}, {
+			"question": "Which three piece of codes are equivalent to line 3",
+			"options": ["final int k = 4;", "public int k = 4;", "static int k = 4;", "abstract int k = 4;"],
+			"answer": ["final int k = 4;", "public int k = 4;", "static int k = 4;"],
+			"questionType": "Textual",
+			"answerType": "MULTIPLE",
+			"weightage": "4"
+		}, {
+			"question": "Which two are valid declarations of a float",
+			"options": ["float f1 = -343;", "float f2 = 3.14;", "float f3 = 0x12345;", "float f4 = 42e7;"],
+			"answer": ["float f1 = -343;", "float f3 = 0x12345;"],
+			"questionType": "Textual",
+			"answerType": "MULTIPLE",
+			"weightage": "4"
+		}, {
+			"question": "In the given program, how many lines of output will be produced?",
+			"options": ["question1.jpg"],
+			"answer": ["11"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "5"
+		}, {
+			"question": "Can try statements be nested?",
+			"options": ["True", "False"],
+			"answer": ["True"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Which of the following is a marker interface?",
+			"options": ["serializable", "comparable", "cloneable", "none of the above."],
+			"answer": ["serializable"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": " Objects are stored on Stack.",
+			"options": ["True", "False"],
+			"answer": ["False"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Which of the following is Faster, StringBuilder or StringBuffer?",
+			"options": ["StringBuilder", "StringBuffer", "Both of the above.", "none of the above."],
+			"answer": ["StringBuilder"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}]
+	}, {
+		"subject": "c",
+		"subjectDetail": [{
+			"question": "What are the types of linkages?",
+			"options": ["Internal and External", "External, Internal and None", "External and None", "Internal"],
+			"answer": ["External, Internal and None"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Which of the following special symbol allowed in a variable name?",
+			"options": ["* (asterisk)", "| (pipeline)", "- (hyphen)", "_ (underscore)"],
+			"answer": ["_ (underscore)"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "How would you round off a value from 1.66 to 2.0?",
+			"options": ["ceil(1.66)", "floor(1.66)", "roundup(1.66)", "roundto(1.66)"],
+			"answer": ["ceil(1.66)"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "The operator used to get value at address stored in a pointer variable is",
+			"options": ["*", "&", "&&", "||"],
+			"answer": ["*"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Operation “a = a * b + a” can also be written as:",
+			"options": ["a *= b + 1;", "(c = a * b)!=(a = c + a);", "a = (b + 1)* a;", "a *= b + a"],
+			"answer": ["a *= b + 1;", "(c = a * b)!=(a = c + a);", "a = (b + 1)* a;"],
+			"questionType": "Textual",
+			"answerType": "Multiple",
+			"weightage": "4"
+		}, {
+			"question": "Which of the following statements are correct about an array?",
+			"options": ["The array int num[26]; can store 26 elements.",
+				"The expression num[1] designates the very first element in the array",
+				"It is necessary to initialize the array at the time of declaration.",
+				"The declaration num[SIZE] is allowed if SIZE is a macro."
+			],
+			"answer": ["The array int num[26]; can store 26 elements.", "The declaration num[SIZE] is allowed if SIZE is a macro."],
+			"questionType": "Textual",
+			"answerType": "Multiple",
+			"weightage": "4"
+		}, {
+			"question": "Which of the following are unary operators in C?",
+			"options": ["!", "sizeof", "~", "&&"],
+			"answer": ["!", "sizeof", "~"],
+			"questionType": "Textual",
+			"answerType": "Multiple",
+			"weightage": "4"
+		}, {
+			"question": "What's the output of the following program?",
+			"options": ["cQuestion1.png"],
+			"answer": ["a = -10, b = 9"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "4"
+		}, {
+			"question": "What's the output of the following program?",
+			"options": ["cQuestion2.png"],
+			"answer": ["0"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "4"
+		}, {
+			"question": "What's the output of the following program?",
+			"options": ["cQuestion3.jpg"],
+			"answer": ["Hello All Geeks 11"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "5"
+		}]
+	}, {
+		"subject": "c++",
+		"subjectDetail": [{
+			"question": "Class function which is called automatically as soon as the object is created is called a _____",
+			"options": ["Constructor", "Destructor, Friend function", "Inline function"],
+			"answer": ["Constructor"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "2"
+		}, {
+			"question": "Which of the following type of class allows only one object of it to be created?",
+			"options": ["Virtual class", "Abstract class", "Singleton class", "Friend class"],
+			"answer": ["Singleton class"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "1"
+		}, {
+			"question": "Which of the following statements is correct?",
+			"options": ["Base class pointer cannot point to derived class.", "Derived class pointer cannot point to base class.", "Pointer to derived class cannot be created.", "Pointer to base class cannot be created."],
+			"answer": ["Derived class pointer cannot point to base class."],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "1"
+		}, {
+			"question": "Which of the following concepts means determining at runtime what method to invoke?",
+			"options": ["Data hiding", "Dynamic Typing", "Dynamic binding", "Dynamic loading"],
+			"answer": ["Dynamic binding"],
+			"questionType": "Textual",
+			"answerType": "Single",
+			"weightage": "1"
+		}, {
+			"question": "Which of the following is correct about function overloading?",
+			"options": ["The types of arguments are different.", "The order of argument is different.", "The number of argument is same.", "The types of arguments are same."],
+			"answer": ["The types of arguments are different.", "The order of argument is different."],
+			"questionType": "Textual",
+			"answerType": "Multiple",
+			"weightage": "1"
+		}, {
+			"question": "Which of the following statements are correct?",
+			"options": ["C++ allows static type checking.",
+				"C++ allows dynamic type checking.",
+				"C++ allows static member function be of type const.",
+				"C++ doesn't allow dynamic type checking."
+			],
+			"answer": ["C++ allows static type checking.", "C++ allows dynamic type checking."],
+			"questionType": "Textual",
+			"answerType": "Multiple",
+			"weightage": "1"
+		}, {
+			"question": "Which of the following is a mechanism of static polymorphism?",
+			"options": ["Operator overloading", "Function overloading", "Templates", "Friend functions"],
+			"answer": ["Operator overloading", "Function overloading", "Templates"],
+			"questionType": "Textual",
+			"answerType": "Multiple",
+			"weightage": "1"
+		}, {
+			"question": "What's the output of the following program?",
+			"options": ["cPlusQuestion1.png"],
+			"answer": ["4"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "2"
+		}, {
+			"question": "What's the output of the following program?",
+			"options": ["cPlusQuestion2.png"],
+			"answer": ["B::fun()"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "2"
+		}, {
+			"question": "What's the output of the following program?",
+			"options": ["cPlusQuestion3.png"],
+			"answer": ["x = 40"],
+			"questionType": "Image",
+			"answerType": "Textual",
+			"weightage": "2"
+		}]
+	}]
+}
