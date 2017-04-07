@@ -1,0 +1,9 @@
+Name: Swastika Raghava Bhat
+Course: COEN 275 - Object Oriented Design, Analysis and Programming - Fall 2016
+Assignment number: Assignment 3
+IDE: Eclipse Mars.2 Release (4.5.2)
+version: Java SE 8[1.8.0_92]
+
+1. main method is in the file QuizApp.java
+2. Place the resources folder in the same folder as the jar file.
+3.QuestionBank.json contains all the quiz questions.
